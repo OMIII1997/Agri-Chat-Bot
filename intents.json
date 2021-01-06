@@ -1,0 +1,100 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hii","Hi there", "Is anyone there?","Hey","Hola", "Hello", "Good day","Good morning","Good afternoon","Good evening"],
+         "responses": ["Hi... Welcome to Agri-Bot !!!","Hello, thanks for connecting with Agri-Bot", "Agri-Bot presents Smart Chat-Bot for Famrers !", "Hi there, Welcome to Agri-Bot !!!"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon.","Bye, Happy to help you."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "helpful", "Awesome thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [""],
+         "responses": ["Sorry, can't understand you...", "Please give me input...", "Please provide input..."],
+         "context": [""]
+        },
+	{"tag": "identity",
+         "patterns": ["Who are you?","What is your name?","Whos this?","your name","What is this"],
+         "responses": ["This is Agri-Bot", "I am Agri-Bot","Myself Agri-Bot"],
+         "context": [""]
+        },
+	{"tag": "work",
+         "patterns": ["what you can do for me?", "what you know?", "what is the use of you?","How you can help me?","what you do","what you can do"],
+         "responses": ["I am here to help you regarding Farming","Assist you in Farming","I will try to answer your questions/queries regarding Farming","You can ask me Farming related queries"],
+         "context": [""]
+        },
+	{"tag": "soil for cotton",
+         "patterns": ["Which one of the soil is the best for cotton cultivation?","which soil is good for cotton","soil for cotton","soil for cotton crop","soil for cotton plant"],
+         "responses": ["Black soil is the best because it is loamy in nature."],
+         "context": [""]
+        },
+	{"tag": "soil for sugarcane",
+         "patterns": ["Which one of the soil is the best for sugarcane cultivation?","which soil is good for sugarcane","soil for sugarcane","soil for sugarcane crop","soil for sugarcane plant"],
+         "responses": ["Alluvial Soil is best for Sugarcane, Black soil is also good."],
+         "context": [""]
+        },
+	{"tag": "soil for potato",
+         "patterns": ["Which one of the soil is the best for potato cultivation?","which soil is good for potato","soil for potato","soil for potato crop","soil for potato plant","soil for potatoes"],
+         "responses": ["Red soil is preferred for Potato crop, because it contains good amount of Iron"],
+         "context": [""]
+        },
+	{"tag": "soil for rice",
+         "patterns": ["Which one of the soil is the best for rice crop cultivation?","which soil is good for rice","soil for rice","soil for rice crop","soil for rice plant","soil for rice"],
+         "responses": ["Clay soil type is required for Rice Crop because it requires lot of water"],
+         "context": [""]
+        },
+	{"tag": "sugarcane planting time",
+         "patterns": ["When can i plant sugarcane","when should I plant sugarcane","best time for sugarcane plantation","when can we do planting of sugarcane","when planting of sugarcane should be done","best period for sugarcane plantation"],
+         "responses": ["You can do sugarcane planting like this: Starting - 15th December to 15th February, Before-season - 15th October to 15th November, Adsali - 15th July to 15th August."],
+         "context": [""]
+        },
+	{"tag": "sugarcane species",
+         "patterns": ["Which are the best sugarcane species","best sugarcane species","sugarcane species","species of sugarcane","good quality sugarcane species","sugarcane species"],
+         "responses": ["Currently co. 86032 (Nira), Ko 94012 (Phule Savitri), Ko.M.0265 (Phule 265), Ko. 9 2005 and CO 671 are the major cultivars to be selected. for more information visit vikaspedia website"],
+         "context": [""]
+        },
+	{"tag": "soil preparation for sugarcane",
+         "patterns": ["how to do soil preparation for sugarcane planting","soil preparation for sugarcane planting","preparation for sugarcane planting","prepare soil for sugarcane"],
+         "responses": ["Medium to heavy soils should be selected for sugarcane. The land should be well tilled by cultivating vertical, horizontal plowing, cultivating etc."],
+         "context": [""]
+        },
+	{"tag": "how to plant sugarcane",
+         "patterns": ["how to do sugarcane planting","how to do planting of sugarcane","how to plat sugarcane","method for sugarcane planting","sugarcane planting","how to plant sugarcane"],
+         "responses": ["When cultivating sugarcane, spacing should be 100 to 120 cm for medium soils and 120 to 150 cm for heavy soils. The length of the sari should be 20 to 40 meters depending on the slope. 75-150 cm for medium soil if planted in belt system. And for heavy soils 90-180 cm method should be adopted. Sugarcane should be planted using one eye or two eye tips. The distance between two eyes when transmitted through one eye method is 30. Cm. Infect dry. Keep the eye on the top and cover it with soil and water it. Or before watering the cane, lightly release the water and apply it on the steamer. When using two eye tips, the distance between the two tips should be 15 to 20 cm. Should be kept. For this, even if it is done by wet method, it will work. However, care should be taken that the tipri is not pressed deep. for more information visit vikaspedia website"],
+         "context": [""]
+        },
+	{"tag": "how to plant sugarcane one eye seedlings",
+         "patterns": ["how to do sugarcane planting from one eye seedlings","how to do planting of sugarcane from one eye seedlings","how to plat sugarcane from one eye seedlings","method for sugarcane planting from one eye seedlings","planting sugarcane from one eye seedlings","sugarcane plantnig with one eye seedling "],
+         "responses": ["Sugarcane seedlings are now available for sale from research centers and some private nurseries. Sugarcane seedlings prepared using coco peat in plastic trays are ready for planting at the age of 30 to 40 days. For this, use 9 to 10 months old pure seedlings for making pure, healthy seedlings. Before sowing, apply 100 liters of water and 300 ml melathion and 100 g of bavistin for 10 minutes. This helps in controlling fungal diseases and scaly insects. Apply acetobacter and phosphorus soluble bacterial fertilizers in a solution of 10 kg and 1.25 kg per 100 liters of water, respectively, and soak the sugarcane tips for 30 minutes. This saves 50% of nitrogen. One month old seedlings should be sprayed with micronutrients. Sugarcane seedlings are grown in coco peat for 30-40 days. So you can choose pure healthy sugarcane seedlings. Due to non-use of inferior seedlings, the yield of sugarcane increases uniformly in the field, the number of sugarcane per acre is 40,000 to 50,000. The average weight of sugarcane is 2 to 3 kg with less rolling. The sapling method saves water, weed control, fertilizer and maintenance required for 30-40 days of regular planting. Infection is not possible in time due to the attraction of rain. In such cases, even if the rains last for 1 to 1.5 months, the season can be completed by planting sugarcane seedlings. Sometimes early harvesting is delayed or due to non-return due to heavy rains, it cannot be transmitted in time. In such cases, cane can be transplanted and harvested on time. The number of cane seedlings per acre can be calculated from the distance between two rows of sugarcane and the distance between seedlings. for more information visit vikaspedia website"],
+         "context": [""]
+        },
+	{"tag": "intercrop in sugarcane",
+         "patterns": ["Which intercrop can be taken in sugarcane crop","intercrop can be taken in sugarcane crop","intercrop in sugarcane crop","intercrop with sugarcane crop","intercrop with sugarcane","intercrop for sugarcane"],
+         "responses": ["Groundnut, Chawli, Soyabean, Vegetable in Adsali Usa, Potato, Onion, Garlic, Cabbage, Cauliflower, Leafy Vegetables, Gram, Pea and Summer Groundnut, Pankobi, Cauliflower, Navalkol, Fenugreek Can be taken as intercrop."],
+         "context": [""]
+        },
+	{"tag": "fertilizer in sugarcane",
+         "patterns": ["Which fertilizer should be used in sugarcane crop","fertilizer used in sugarcane crop","fertlizer for sugarcane crop","best fertilizer for sugarcane","fertlizer for sugarcane"],
+         "responses": ["Unbalanced production of chemical fertilizers reduces dryness and productivity. Organic, biological and chemical integrated food administration time. 20 (40 carts), 25 (50 carts) and 30 (60 carts) tons of manure or Pachta compost manure 7.5 tons per hectare 7.5 tons (15 carts), pressed cake 6 hectare per hectare for early, pre-seasonal and late season sugarcane respectively. 12 carts) and 5 tons (10 carts) of vermicompost per hectare before planting of sugarcane at the time of second plowing and half quantity at the time of release of the remaining half quantity. In case of non-availability of manure or compost, green crops like hemp and paddy should be used as organic manure.Chemical fertilizers: Urea, Phosphorus, Potash. for more information visit vikaspedia website"],
+         "context": [""]
+        },
+	{"tag": "Water management in sugarcane",
+         "patterns": ["how to Water management in sugarcane crop","Water management in sugarcane crop","Water management for sugarcane crop","Water management for sugarcane","water for sugarcane"],
+         "responses": ["340 to 350, 300 to 325, 250 to 275 and 225 to 250 ha. Water is needed for Adasali, Pre-seasonal, Suru and Khodya cane crops respectively. The water level is generally 8 cm till large construction. Room should be given. After that 10 cm depth should be given. Depending on the season, watering should be done after 8 to 10 days in summer, 14 to 15 days in monsoon and 18 to 20 days in winter. for more information visit vikaspedia website"],
+         "context": [""]
+        },
+	{"tag": "sugarcane harvesting",
+         "patterns": ["When to harvest sugarcane","harvest sugarcane","sugarcane harvest" ,"sugarcane harvesting","when sugarcane harvesting should be done","best time for sugarcane harvesting","sugarcane harvesting management"],
+         "responses": ["Sugarcane should be harvested seasonally and according to maturity. Water the crop for 15 days before harvesting. The broken cane should be sent to the mill immediately. Early 12-13 months, pre-season 14-15 months and end of 16-18 months cane harvesting should be done."],
+         "context": [""]
+        }
+
+   ]
+}
+
