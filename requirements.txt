@@ -5,3 +5,7 @@ Flask==1.1.1
 h5py==2.9.0
 keras==2.4.3
 pillow>=6.2.0
+textblob==0.15.3
+nltk==3.4.5
+json==2.0.9
+requests==2.22.0
