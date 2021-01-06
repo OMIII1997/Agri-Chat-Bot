@@ -1,0 +1,84 @@
+body
+{
+background-image: url("/static/farmer.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+font-family: Garamond;
+}
+h1
+{
+color: #ffffff;
+margin-bottom: 0;
+margin-top: 0;
+text-align: center;
+font-size: 40px;
+}
+h3
+{
+color: black;
+font-size: 20px;
+margin-top: 3px;
+text-align: center;
+}
+#chatbox
+{
+border-radius: 25px;
+margin-left: auto;
+margin-right: auto;
+width: 45%;
+margin-top: 60px;
+}
+#userInput {
+border-radius: 25px;
+margin-left: 30%;
+margin-right: auto;
+width: 60%;
+margin-top: 130px;
+}
+#textInput {
+margin-left: auto;
+margin-right: auto;
+border-radius: 25px;
+width: 60%;
+border-bottom: 3px solid #009688;
+font-family: Comic Sans MS;
+font-size: 17px;
+}
+#buttonInput {
+padding: 8px;
+font-family: monospace;
+font-size: 17px;
+border-radius: 25px;
+}
+.userText {
+color: white;
+font-family: Comic Sans MS;
+font-size: 17px;
+text-align: right;
+line-height: 30px;
+}
+.userText span {
+background-color: #04af12;
+padding: 10px;
+border-radius: 25px;
+}
+.botText {
+border-radius: 25px;
+color: rgb(25, 149, 3);
+font-family: Comic Sans MS;
+font-size: 17px;
+text-align: left;
+line-height: 40px;
+
+}
+.botText span {
+background-color: #ffffff;
+padding: 10px;
+border-radius: 25px;
+}
+#tidbit {
+position:absolute;
+bottom:0;
+right:0;
+width: 300px;
+}
